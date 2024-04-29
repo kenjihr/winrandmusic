@@ -1,0 +1,14 @@
+{
+    "speak_date": "{MONTH}月{DATE}日 {WEEKDAY}。",
+    "speak_time": "{HOUR}時{MINUTE}分。",
+    "speak_weather": "天気、 {CONDITION} 。 気温、 {MINTEMP_C}度 から {MAXTEMP_C}度",
+    "weekday_0": "月曜日",
+    "weekday_1": "火曜日",
+    "weekday_2": "水曜日",
+    "weekday_3": "木曜日",
+    "weekday_4": "金曜日",
+    "weekday_5": "土曜日",
+    "weekday_6": "日曜日",
+    "speechapi_language" : "411",
+    "weatherapi_language" : "ja"
+}

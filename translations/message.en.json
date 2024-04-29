@@ -1,0 +1,14 @@
+{
+    "speak_date": "Today is {WEEKDAY}, {MONTH}/{DATE}.",
+    "speak_time": "The time is {HOUR}:{MINUTE} now.",
+    "speak_weather": "The weather today is {CONDITION}. The temperature is from {MINTEMP_F} to {MAXTEMP_F} degrees fahrenheit.",
+    "weekday_0": "monday",
+    "weekday_1": "tuesday",
+    "weekday_2": "wednesday",
+    "weekday_3": "thursday",
+    "weekday_4": "friday",
+    "weekday_5": "saturday",
+    "weekday_6": "sunday",
+    "speechapi_language" : "409",
+    "weatherapi_language" : ""
+}

@@ -1,0 +1,57 @@
+{
+    "locales": ["en"],
+    "duration": "01:00:00",
+    "master_volume": 0.8,
+    "media": {
+        "enable": 1,
+        "playlist": [
+            {"time": "00:00:00", "playlist" : ["${USERPROFILE}\\Music\\classical"]},
+            {"time": "01:00:00", "playlist" : ["${USERPROFILE}\\Music\\rock", "${PUBLIC}\\Music\\anime"]}
+        ],
+        "volume" : [
+            {"time": "00:00:00", "volume": 0},
+            {"time": "00:30:00", "volume": 60},
+            {"time": "01:00:00", "volume": 200}
+        ],
+        "vlc": {
+            "command": ["C:\\Program Files\\VideoLAN\\VLC\\vlc.exe", "--random"],
+            "http_host": "127.0.0.1",
+            "http_port": 28080,
+            "http_password": "12345",
+        },
+        "extensions": {
+            "media": ["wav", "mp3", "flac", "alac", "aac", "ogg", "wma", "m4a", "mp4"],
+            "playlist": ["m3u8", "m3u"]
+        }
+    },
+    "time": {
+        "enable": 1,
+        "interval": [
+            {"time": "00:00:00", "interval": "00:10:00"},
+            {"time": "00:30:00", "interval": "00:05:00"},
+            {"time": "01:00:00", "interval": "00:01:00"}
+        ],
+        "volume" : [
+            {"time": "00:00:00", "volume": 0},
+            {"time": "00:30:00", "volume": 30},
+            {"time": "01:00:00", "volume": 100}
+        ]
+    },
+    "weather": {
+        "enable": 1,
+        "interval": [
+            {"time": "00:00:00", "interval": "00:10:00"},
+            {"time": "00:30:00", "interval": "00:05:00"},
+            {"time": "01:00:00", "interval": "00:01:00"}
+        ],
+        "volume" : [
+            {"time": "00:00:00", "volume": 0},
+            {"time": "00:30:00", "volume": 30},
+            {"time": "01:00:00", "volume": 100}
+        ],
+        "update_interval": "01:00:00",
+        "q": "21.3058578441699,-157.85963020292868",
+        "apikey": "0000000000000000000000000000000"
+    },
+    "debug": 0
+}
