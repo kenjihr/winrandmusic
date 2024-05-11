@@ -9,9 +9,13 @@ The main use is for a morning alarm clock and the feature is:
 
 The code is written in Python programming language.
 
+# Download
+
+* [The latest release](https://github.com/kenjihr/wintimeweatherteller/releases/latest).
+
 # Usage
 
-    python main.py [OPTIONS]
+    wintimeweatherteller.exe [OPTIONS]
     
     -h, --help       show this help message and exit
     
